@@ -1,0 +1,164 @@
+body{
+  background-color: rgb(214, 82, 110);
+  display: flex;
+  flex-direction: column;
+  flex: 1;
+  color:rgb(214, 82, 110);
+  overflow-x: hidden;
+  }
+
+  .display-1 {
+    font-weight: 600;
+    color: pink;
+    }
+  
+  .header-text{
+    margin: 0;
+  }
+  
+
+.container-fluid {
+  max-width: 1550px; 
+  box-sizing:border-box;
+  flex-grow: 1;
+  padding: 0 12px 0 12px;
+  }
+
+
+.navbar{
+    background-color: rgb(214, 82, 110);
+    padding: 0 24px 0 0 0;
+}
+
+.navbar-brand {
+  padding: 0;
+  margin: 0;
+}
+
+.navbar.navbar-expand-sm.navbar-light{
+  padding: 0 0 24px 0;
+}
+
+.navbar-light .navbar-nav .nav-link {
+  display: flex;
+  color: pink;
+  padding-bottom: 0;
+  margin-bottom: 0;
+}
+
+.navbar-light .navbar-nav .nav-link:hover {
+  color: white;
+}
+
+form.d-flex.me-5 {
+  margin-right: 0 !important;
+}
+
+.form-control.me-2.search-input{
+  border-radius:80px;
+  background-color: rgb(214, 82, 110);
+  border-color: #ffc0cb;
+  border-width: 2px;
+}
+
+.search-input::placeholder {
+  color: pink;
+}
+
+.btn-outline-success{
+  border-color: pink;
+  border-width: 2px;
+  border-radius: 80px;
+}
+
+.btn-outline-success:hover {
+  background-color: pink;
+  border-color: pink;
+}
+
+.btn-outline-success:hover svg path {
+  fill: rgb(214, 82, 110);
+}
+
+
+
+.navbar-toggler{  
+  border: 2px solid pink !important;
+  border-radius: 80px;
+  margin-top: 20px;
+}
+
+
+.navbar-toggler:hover path {
+  stroke: rgb(214, 82, 110);
+  stroke-width: 1px;
+  transition: all ease 50ms;
+}
+
+
+.navbar-toggler:hover{
+  background-color: pink;
+  transition: ease 350 ms;
+}
+
+
+
+.img-fluid {
+  width: 100%;
+  height: 97%;
+  object-fit: cover;
+  border-radius: 10px;
+}
+
+
+.card-img-top {
+  height: 60%;
+  object-fit: cover;
+  border-radius: 10px;
+  padding: 0;
+  flex: 1;
+}
+
+.card {
+  height: auto;
+  margin: 0 0 24px 0;
+  border-radius: 10px;
+  background-color: pink;
+  display: flex;
+}
+
+.p.card-text{
+  padding:0;
+  margin: 0
+}
+
+
+.btn.btn-primary{
+  background-color: pink;
+  color: rgb(214, 82, 110);
+  border-radius: 80px;
+  border-color: rgb(214, 82, 110);
+  border-style: solid;
+  border-width: 2px;
+  margin: 0;
+}
+
+.btn.btn-primary:hover{
+    background-color: rgb(214, 82, 110);
+    color: pink;
+    border-radius: 80px;
+    border-color: rgb(214, 82, 110);
+    border-style: solid;
+    border-width: 2px;
+    margin: 0;
+    transition: all ease 350ms;
+}
+
+
+
+footer {
+  text-align: center;
+  padding: 0;
+  margin: 0;
+  color: pink;
+}
